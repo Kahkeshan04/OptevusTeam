@@ -1,0 +1,10 @@
+<nav class="navbar navbar-expand navbar-light bg-light" style="display: inline;">
+  <h1>{{title}}</h1>
+  <ul class="nav nav-pills">
+    <li><a class="nav-link" routerLink="/welcome" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a></li>
+    <li><a class="nav-link" routerLink="/product" routerLinkActive="active">Members List</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,47 @@
+<div class="card ">
+    <div class="card-header">{{pageTitle}}</div>  
+    <div class="container">
+        <table class="table"> 
+            <tr>
+                <td>Employee Id</td>
+                <td>:</td>
+                <td>{{employee[index].memberId}}</td>
+                <td rowspan="7" style="text-align: center;"><img [src]="employee[index].imageUrl" height="250px"  ></td>
+            </tr>
+            <tr>
+                <td>Member Name</td>
+                <td>:</td>
+                <td>{{employee[index].memberName}}</td>
+            </tr>
+            <tr>
+                <td>Employee Code</td>
+                <td>:</td>
+                <td>{{employee[index].memberCode}}</td>
+            </tr>
+            <tr>
+                <td>Joining Date</td>
+                <td>:</td>
+                <td>{{employee[index].joinDate}}</td>
+            </tr>
+            <tr>
+                <td>Designation</td>
+                <td>:</td>
+                <td>{{employee[index].designation}}</td>
+            </tr>
+            <tr>
+                <td>Level</td>
+                <td>:</td>
+                <td>{{employee[index].level}}</td>
+            </tr>
+            <tr>
+                <td>View Time</td>
+                <td>:</td>
+                <td>{{employee[index].viewTime}}</td>
+            </tr>
+        </table>
+    </div>
+    <div class="card-footer">
+        <button class="btn btn-outtdne-secondary" style="width: 80px;" (click)="onBack()">
+                <i class="fa fa-chevron-left"></i>  Back</button>
+    </div>
+</div>

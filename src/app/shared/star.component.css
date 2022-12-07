@@ -1,0 +1,15 @@
+.crop {
+  overflow: hidden;
+}
+div {
+  cursor: pointer;
+}
+span{
+  margin-left: 0px;
+}
+div:hover{
+  text-shadow:  -1px 0 5px #000607, 0 0 5px #000607, 0 0 5px #000607;
+  color: #ffffff;
+}
+
+/* div .colorStar {color: red;} */
