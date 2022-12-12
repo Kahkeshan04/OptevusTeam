@@ -1,0 +1,52 @@
+[
+    {
+        "memberId": 1,
+        "memberName": "Raghav",
+        "memberCode": "EMPWPT-1401",
+        "joinDate": "Oct 17, 2021",
+        "designation": "Software Developer",
+        "level": "Team Leader",
+        "viewTime": 5,
+        "imageUrl": "assets/images/raghav.png"
+    },
+    {
+        "memberId": 27,
+        "memberName": "Kahkeshan",
+        "memberCode": "EMPWPT-1427",
+        "joinDate": "Oct 17, 2022",
+        "designation": "Software Developer",
+        "level": "Trainee",
+        "viewTime": 3.3,
+        "imageUrl": "assets/images/kahkeshan.png"
+    },
+    {
+        "memberId": 28,
+        "memberName": "Meghana",
+        "memberCode": "EMPWPT-1428",
+        "joinDate": "Oct 17, 2022",
+        "designation": "Software Developer",
+        "level": "Trainee",
+        "viewTime": 2.8,
+        "imageUrl": "assets/images/meghana.png"
+    },
+    {
+        "memberId": 29,
+        "memberName": "Prakhyath",
+        "memberCode": "EMPWPT-1429",
+        "joinDate": "Oct 17, 2022",
+        "designation": "Software Developer",
+        "level": "Trainee",
+        "viewTime": 3.7,
+        "imageUrl": "assets/images/PG.png"
+    },
+    {
+        "memberId": 30,
+        "memberName": "Santhoshini",
+        "memberCode": "EMPWPT-1430",
+        "joinDate": "Oct 17, 2022",
+        "designation": "Software Developer",
+        "level": "Trainee",
+        "viewTime": 3.9,
+        "imageUrl": "assets/images/santhoshi.png"
+    }
+]
